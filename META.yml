@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Any-Renderer-Data-Printer
-version:            0.01
+version:            0.02
 abstract:           Render data structures through Data::Printer
 author:
     - Kevin McGrath <kmcgrath@baknet.com>
@@ -11,7 +11,9 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    Any::Renderer:  1.014
+    Data::Printer:  0.18
+    Test::More:     0
 no_index:
     directory:
         - t
